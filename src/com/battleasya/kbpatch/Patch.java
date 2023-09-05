@@ -3,17 +3,17 @@ package com.battleasya.kbpatch;
 import org.bukkit.Material;
 import org.bukkit.entity.*;
 import org.bukkit.event.EventHandler;
-import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.event.inventory.InventoryType;
 import org.bukkit.event.player.PlayerCommandPreprocessEvent;
 import org.bukkit.event.player.PlayerTeleportEvent;
+import org.bukkit.inventory.Inventory;
 
 public class Patch implements Listener {
 
     // kit lock bypass patch
-    @EventHandler(priority = EventPriority.HIGH)
+    @EventHandler
     public void onTeleport(PlayerTeleportEvent e) {
 
         if (!Config.kit_lock_patch_enable) {
@@ -21,6 +21,10 @@ public class Patch implements Listener {
         }
 
         Player p = e.getPlayer();
+
+        if (p == null) {
+            return;
+        }
 
         if (!Config.worldList.contains(p.getWorld().getName())) {
             return;
@@ -40,7 +44,7 @@ public class Patch implements Listener {
     }
 
     // iron fist patch
-    @EventHandler(priority = EventPriority.HIGH)
+    @EventHandler
     public void onClick(InventoryClickEvent e) {
 
         if (!Config.iron_fist_patch_enable) {
@@ -48,6 +52,10 @@ public class Patch implements Listener {
         }
 
         Player p = (Player) e.getWhoClicked();
+
+        if (p == null) {
+            return;
+        }
 
         if (!Config.worldList.contains(p.getWorld().getName())) {
             return;
@@ -59,7 +67,17 @@ public class Patch implements Listener {
 
         Material kitSelector = Material.getMaterial(Config.iron_fist_patch_kit_selector);
 
-        if (e.getClickedInventory().contains(kitSelector)) {
+        if (kitSelector == null) {
+            return;
+        }
+
+        Inventory inv = e.getClickedInventory();
+
+        if (inv == null) {
+            return;
+        }
+
+        if (inv.contains(kitSelector)) {
             e.setCancelled(true);
         }
 
@@ -74,6 +92,10 @@ public class Patch implements Listener {
         }
 
         Player p = e.getPlayer();
+
+        if (p == null) {
+            return;
+        }
 
         if (!Config.worldList.contains(p.getWorld().getName())) {
             return;
