@@ -1,0 +1,17 @@
+name: KitBattlePatch
+main: com.battleasya.kbpatch.KBPatch
+version: 1.0.0
+api-version: 1.14
+author: Dennie
+website: http://battleasya.com
+description: Patches KitBattle Exploits.
+commands:
+  kbpatch:
+    description: General Commands.
+    aliases: [kitbattlepatch]
+permissions:
+  kbpatch.*:
+    default: op
+    children:
+      kbpatch.reload: true
+      kbpatch.bypass: true
