@@ -15,7 +15,7 @@ public class Command implements CommandExecutor {
     public boolean onCommand(CommandSender sender, org.bukkit.command.Command cmd, String s, String[] args) {
 
         if (args.length == 0) {
-            Util.sendMsg(sender, "&3[&bKBPatch&3] &7Patched by Dennie.");
+            Util.sendMsg(sender, "&3[&bKBPatch&3] &7(&fv1.0.0&7) Patched by &fDennie&7.");
             return true;
         }
 
