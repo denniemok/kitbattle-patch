@@ -12,11 +12,11 @@ import org.bukkit.inventory.Inventory;
 
 public class Patch implements Listener {
 
-    // kit lock bypass patch
+    // smuggling patch
     @EventHandler
     public void onTeleport(PlayerTeleportEvent e) {
 
-        if (!Config.kit_lock_patch_enable) {
+        if (!Config.smuggling_patch_enable) {
             return;
         }
 

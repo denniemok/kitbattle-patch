@@ -1,10 +1,11 @@
 name: KitBattlePatch
 main: com.battleasya.kbpatch.KBPatch
-version: 1.0.0
+version: 1.0.1
 api-version: 1.14
 author: Dennie
 website: http://battleasya.com
 description: Patches KitBattle Exploits.
+depend: [KitBattle]
 commands:
   kbpatch:
     description: General Commands.

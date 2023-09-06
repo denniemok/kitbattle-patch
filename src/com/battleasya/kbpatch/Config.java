@@ -20,7 +20,7 @@ public class Config {
     public static boolean iron_fist_patch_enable;
     public static String iron_fist_patch_kit_selector;
 
-    public static boolean kit_lock_patch_enable;
+    public static boolean smuggling_patch_enable;
 
     public static String incorrect_syntax;
     public static String no_permission;
@@ -39,7 +39,7 @@ public class Config {
         iron_fist_patch_enable = config.getBoolean("iron-fist-patch.enable");
         iron_fist_patch_kit_selector = config.getString("iron-fist-patch.kit-selector");
 
-        kit_lock_patch_enable = config.getBoolean("kit-lock-patch.enable");
+        smuggling_patch_enable = config.getBoolean("smuggling-patch.enable");
 
         incorrect_syntax = config.getString("incorrect-syntax");
         no_permission = config.getString("no-permission");
