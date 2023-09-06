@@ -40,9 +40,9 @@ world:
 # +------------------------------------------------------+ #
 ############################################################
 
-# Undoubtedly the most long-lasting KitBattle exploit, The Iron Fist Exploit, also known
-# as The Damage Bug, has gained notoriety for allowing sword damage from a previously
-# selected kit to persist even after a player logs out and back in.
+# Undoubtedly the most long-lasting KitBattle exploit, Iron Fist (a.k.a. Damage Bug) has
+# gained notoriety for allowing sword damage from a previously selected kit to persist
+# even after a player logs out and back in.
 
 # To effectively mitigate this problem, consider switching the kit selector to a sword item.
 # This can be done by navigating to KitBattle's config.yml and modify the kit selector item
@@ -78,7 +78,7 @@ block-kb-selectkit:
 
 iron-fist-patch:
   # DO NOT enable this patch if you already have XXX_SWORD as your kit selector item.
-  # In general, do NOT enable this patch if your kit selector item is a kit item.
+  # In general, DO NOT enable this patch if your kit selector item is a kit item.
   enable: true
   # The default kit-selector item for KitBattle is CHEST.
   kit-selector: "CHEST"
@@ -91,9 +91,9 @@ iron-fist-patch:
 # +------------------------------------------------------+ #
 ############################################################
 
-# The Smuggling Exploit, also known as The Teleport Bug, enables players to conveniently
-# transport kit items between arenas, resulting in the possession of items from multiple
-# kits, thereby disrupting the game balance.
+# Smuggling (a.k.a. Teleport Bug) enables players to conveniently transport kit items
+# between arenas, resulting in the possession of items from multiple kits, thereby
+# disrupting the game balance.
 
 # Practical use includes: transporting kit items from a normal arena into a kit-locked
 # challenge arena, or transporting previously used kit items back into the arena.
