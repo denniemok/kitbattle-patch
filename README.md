@@ -1,3 +1,3 @@
 # Kitbattle Patch
 
-This plugin is dedicated to addressing various well-known KitBattle exploits.
+This plugin is dedicated to addressing 2 well-known KitBattle exploits.
