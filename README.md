@@ -21,13 +21,13 @@ Note that this plugin is specifically made for use with a [KitBattle Advanced (P
 
 <hr>
 
-### Iron Fist (Damage Bug)
+### 1. Iron Fist (Damage Bug)
 Undoubtedly the most long-lasting KitBattle exploit, Iron Fist (a.k.a Damage Bug), has gained notoriety for allowing sword damage from a previously selected kit to persist even after a player logs out and back in.
 
-### Smuggling (Teleport Bug)
+### 2. Smuggling (Teleport Bug)
 Smuggling (a.k.a. Teleport Bug) enables players to conveniently transport kit items between arenas upon teleportation, resulting in the possession of items or effects from multiple kits, thereby disrupting the game balance.
 
-### Lag Machine (Arrow Particles Crash)
+### 3. Lag Machine (Arrow Particles Bug)
 Abusers persistently abuse particles by generating hundreds of laggy arrows (with KitBattle trails) at spawn to destroy your server TPS and crash players with suboptimal PCs. Very often, this is done skillfully as these arrows have to get stuck somewhere and not get cleaned up.
 
 <hr>
