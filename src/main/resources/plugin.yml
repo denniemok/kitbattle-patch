@@ -1,6 +1,6 @@
 name: KitBattlePatch
 main: com.battleasya.kbpatch.KBPatch
-version: 1.0.1
+version: ${version}
 api-version: 1.14
 author: Dennie
 website: http://battleasya.com

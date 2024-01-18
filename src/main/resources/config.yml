@@ -4,7 +4,7 @@
 # +------------------------------------------------------+ #
 ############################################################
 
-version: "1.0.1"
+version: "${version}"
 
 # This plugin is dedicated to addressing 2 well-known KitBattle exploits.
 # While the fixes are straightforward, the exploits themselves are rather intricate.

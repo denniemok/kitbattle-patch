@@ -4,9 +4,10 @@
 out/
 bin/
 lib/
+target/
 .settings/
 .project
-target/
+*.iml
 
 # Compiled source #
 ###################
