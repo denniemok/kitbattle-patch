@@ -1,6 +1,6 @@
 <br><br>
 <p align="center">
-    <img src="https://i.imgur.com/mcjIero.png"><br>
+    <img src=https://i.imgur.com/ymrFc2I.png"><br>
     <img src="https://img.shields.io/badge/Version-1.0.1-green"> <img src="https://img.shields.io/badge/Spigot-1.8+-lightgrey"> <img src="https://img.shields.io/badge/License-MIT-blue"> <img src="https://img.shields.io/badge/Language-Java-yellow">
 </p>
 
