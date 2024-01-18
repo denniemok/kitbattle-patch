@@ -1,3 +1,4 @@
+IMPORTANT: All the exploits mentioned on this page have been addressed in KitBattle 9.5 & 9.5.1. If you’re already using the latest version of KitBattle, this patch is no longer necessary.
 <br><br>
 <p align="center">
     <img src="https://i.imgur.com/ymrFc2I.png"><br>
