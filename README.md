@@ -30,6 +30,8 @@ Smuggling (a.k.a. Teleport Bug) enables players to conveniently transport kit it
 ### 3. Lag Machine (Arrow Particles Bug)
 Abusers persistently abuse particles by generating hundreds of laggy arrows (with KitBattle trails) at spawn to destroy your server TPS and crash players with suboptimal PCs. Very often, this is done skillfully as these arrows have to get stuck somewhere and not get cleaned up.
 
+For more details, please proceed to the [Wiki](https://github.com/denniemok/kitbattle-patch/wiki).
+
 <hr>
 
 ### Runtime Requirements
